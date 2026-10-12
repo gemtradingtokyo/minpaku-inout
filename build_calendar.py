@@ -1,127 +1,182 @@
 #!/usr/bin/env python3
-"""Fetch Airbnb per-listing iCal feeds and emit calendar.json.
+"""Fetch reservations from the Hostex Open API (v3) and emit calendar.json.
 
-Reads the listing list from the ICAL_URLS environment variable (a GitHub Actions
-secret). One listing per line:  ROOM|LISTING_ID|TOKEN
-Lines that are blank or start with '#' are ignored.
+Hostex aggregates every channel (Airbnb, Booking.com, ...), so one API call
+covers all of them.
+
+Environment (GitHub Actions secrets):
+  HOSTEX_ACCESS_TOKEN  Hostex Open API token (Hostex > Settings > Open API)
+  HOSTEX_ROOMS         one room per line:  ROOM|PROPERTY_ID   (e.g. 301U|123456)
+                       blank lines and lines starting with '#' are ignored.
+
+Run with --list-properties to print every Hostex property id and title
+(used once to fill HOSTEX_ROOMS).
 
 Output: calendar.json
 {
   "generated_utc": "...",
+  "source": "hostex",
   "rooms": {
-    "301U": [ {"in": "2026-09-06", "out": "2026-09-08"}, ... ],   # sorted, real reservations only
-    "405U": null,                                                 # null = this feed failed to fetch
+    "301U": [ {"in": "2026-09-06", "out": "2026-09-08", "channel": "booking.com",
+               "guests": 3, "adults": 2, "children": 1, "infants": 0}, ... ],
     ...
   },
-  "errors": ["405U: <reason>", ...]
+  "errors": ["...", ...]
 }
 """
+import datetime
 import json
 import os
 import sys
-import datetime
+import time
+import urllib.error
+import urllib.parse
 import urllib.request
 
+API = "https://api.hostex.io/v3"
 TIMEOUT = 30
+PAGE = 100
+PAST_DAYS = 7
+FUTURE_DAYS = 365
 
 
-def load_listings():
-    raw = os.environ.get("ICAL_URLS", "").strip()
-    out = []
+def api_get(path, params):
+    token = os.environ.get("HOSTEX_ACCESS_TOKEN", "").strip()
+    if not token:
+        raise RuntimeError("HOSTEX_ACCESS_TOKEN is empty")
+    url = f"{API}{path}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(
+        url,
+        headers={
+            "Hostex-Access-Token": token,
+            "Accept": "application/json",
+            "User-Agent": "minpaku-cal/2.0",
+        },
+    )
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                body = json.loads(r.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as ex:
+            if ex.code == 429 or ex.code >= 500:
+                if attempt < 3:
+                    time.sleep(2 ** (attempt + 1))
+                    continue
+            raise
+    if body.get("error_code") != 200:
+        raise RuntimeError(f"Hostex error {body.get('error_code')}: {body.get('error_msg')}")
+    return body.get("data") or {}
+
+
+def paged(path, key, params):
+    offset = 0
+    while True:
+        data = api_get(path, {**params, "offset": offset, "limit": PAGE})
+        items = data.get(key) or []
+        yield from items
+        if len(items) < PAGE:
+            return
+        offset += PAGE
+
+
+def load_rooms():
+    raw = os.environ.get("HOSTEX_ROOMS", "").strip()
+    rooms = {}
     for line in raw.splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
             continue
         parts = [p.strip() for p in line.split("|")]
-        if len(parts) < 3 or not parts[0] or not parts[1] or not parts[2]:
+        if len(parts) < 2 or not parts[0] or not parts[1].isdigit():
             print(f"skip malformed line: {line!r}", file=sys.stderr)
             continue
-        out.append((parts[0], parts[1], parts[2]))
-    return out
+        rooms[int(parts[1])] = parts[0]
+    return rooms
 
 
-def _norm_date(v):
-    v = v.strip()
-    if "T" in v:
-        v = v.split("T", 1)[0]
-    if len(v) == 8 and v.isdigit():
-        return f"{v[0:4]}-{v[4:6]}-{v[6:8]}"
-    return v
-
-
-def parse_ical(text):
-    """Return [(dtstart, dtend)] for VEVENTs that are real reservations.
-
-    Airbnb marks real bookings with SUMMARY 'Reserved'. Auto blocks (booking
-    cutoff etc.) use SUMMARY 'Airbnb (Not available)' and are skipped.
-    """
-    events = []
-    cur = {}
-    in_event = False
-    for line in text.splitlines():
-        line = line.rstrip("\r")
-        if line == "BEGIN:VEVENT":
-            in_event = True
-            cur = {}
-        elif line == "END:VEVENT":
-            in_event = False
-            s = cur.get("DTSTART")
-            e = cur.get("DTEND")
-            summ = cur.get("SUMMARY", "").strip().lower()
-            if s and e and summ.startswith("reserved"):
-                events.append((s, e))
-        elif in_event and ":" in line:
-            key, _, val = line.partition(":")
-            key = key.split(";", 1)[0]
-            if key in ("DTSTART", "DTEND"):
-                cur[key] = _norm_date(val)
-            elif key == "SUMMARY":
-                cur["SUMMARY"] = val
-    return events
-
-
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "minpaku-cal/1.0"})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return r.read().decode("utf-8", "replace")
+def list_properties():
+    for p in paged("/properties", "properties", {}):
+        chans = ", ".join(f"{c.get('channel_type')}:{c.get('listing_id')}" for c in p.get("channels") or [])
+        print(f"{p.get('id')}\t{p.get('title')}\t{chans}")
 
 
 def main():
-    listings = load_listings()
-    if not listings:
-        print("ERROR: ICAL_URLS is empty or malformed", file=sys.stderr)
+    if "--list-properties" in sys.argv:
+        list_properties()
+        return
+
+    rooms = load_rooms()
+    if not rooms:
+        print("ERROR: HOSTEX_ROOMS is empty or malformed", file=sys.stderr)
         sys.exit(1)
+
+    today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date()
+    params = {
+        "status": "accepted",
+        "start_check_out_date": (today - datetime.timedelta(days=PAST_DAYS)).isoformat(),
+        "end_check_in_date": (today + datetime.timedelta(days=FUTURE_DAYS)).isoformat(),
+        "order_by": "check_in_date",
+    }
 
     result = {
         "generated_utc": datetime.datetime.now(datetime.timezone.utc)
         .replace(microsecond=0)
         .isoformat()
         .replace("+00:00", "Z"),
-        "rooms": {},
+        "source": "hostex",
+        "rooms": {room: [] for room in rooms.values()},
         "errors": [],
     }
 
-    for room, lid, token in listings:
-        url = f"https://www.airbnb.jp/calendar/ical/{lid}.ics?t={token}"
-        try:
-            text = fetch(url)
-            ev = sorted(set(parse_ical(text)))
-            result["rooms"][room] = [{"in": s, "out": e} for s, e in ev]
-        except Exception as ex:  # noqa: BLE001 - want any failure recorded, not fatal
-            result["rooms"][room] = None
-            result["errors"].append(f"{room}: {type(ex).__name__}: {ex}")
+    try:
+        reservations = list(paged("/reservations", "reservations", params))
+    except Exception as ex:  # noqa: BLE001 - keep the previous calendar.json on any API failure
+        print(f"ERROR: Hostex reservations fetch failed: {type(ex).__name__}: {ex}", file=sys.stderr)
+        sys.exit(1)
+
+    seen = set()
+    for r in reservations:
+        if r.get("status") != "accepted":
+            continue
+        key = r.get("stay_code") or r.get("reservation_code")
+        if key in seen:
+            continue
+        seen.add(key)
+        pid = r.get("property_id")
+        room = rooms.get(pid)
+        if room is None:
+            if not pid or r.get("in_reservation_box"):
+                result["errors"].append(
+                    f"未割当予約: {r.get('channel_type')} {r.get('check_in_date')}~{r.get('check_out_date')}"
+                )
+            continue
+        adults = r.get("number_of_adults") or 0
+        children = r.get("number_of_children") or 0
+        infants = r.get("number_of_infants") or 0
+        result["rooms"][room].append(
+            {
+                "in": r.get("check_in_date"),
+                "out": r.get("check_out_date"),
+                "channel": r.get("channel_type"),
+                "guests": (adults + children + infants) if adults else (r.get("number_of_guests") or 0),
+                "adults": adults,
+                "children": children,
+                "infants": infants,
+            }
+        )
+
+    for room in result["rooms"]:
+        result["rooms"][room].sort(key=lambda b: (b["in"], b["out"]))
 
     with open("calendar.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
         f.write("\n")
 
-    ok = sum(1 for v in result["rooms"].values() if v is not None)
-    print(f"wrote calendar.json: {ok}/{len(listings)} feeds ok, {len(result['errors'])} errors")
+    total = sum(len(v) for v in result["rooms"].values())
+    print(f"wrote calendar.json: {len(rooms)} rooms, {total} reservations, {len(result['errors'])} warnings")
     for e in result["errors"]:
         print("  " + e, file=sys.stderr)
-    # Fail the job only if EVERY feed failed (keeps a stale-but-valid file otherwise)
-    if ok == 0:
-        sys.exit(1)
 
 
 if __name__ == "__main__":
