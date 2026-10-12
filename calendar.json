@@ -1,9 +1,10 @@
 {
- "generated_utc": "2026-10-12T01:11:49Z",
+ "generated_utc": "2026-10-12T09:03:09Z",
  "source": "hostex",
  "rooms": {
   "301U": [
    {
+    "code": "0-HME449RTHY-iguxtklt23",
     "in": "2026-10-10",
     "out": "2026-10-13",
     "channel": "airbnb",
@@ -13,6 +14,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMW9CZ5ZB5-iguxv2ekvg",
     "in": "2026-10-20",
     "out": "2026-10-22",
     "channel": "airbnb",
@@ -22,6 +24,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPS4E2A9E-ihg719v7ir",
     "in": "2026-10-22",
     "out": "2026-10-25",
     "channel": "airbnb",
@@ -31,6 +34,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZYZ5K4ZA-iguxv2oh1w",
     "in": "2026-10-30",
     "out": "2026-11-03",
     "channel": "airbnb",
@@ -40,6 +44,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMP2JM9ECH-iguxumgbzf",
     "in": "2026-11-08",
     "out": "2026-11-09",
     "channel": "airbnb",
@@ -49,6 +54,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMWTYXYW42-iguxv31aae",
     "in": "2026-11-20",
     "out": "2026-11-23",
     "channel": "airbnb",
@@ -58,6 +64,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMSFXK8A84-iguxwoml7h",
     "in": "2026-12-15",
     "out": "2026-12-17",
     "channel": "airbnb",
@@ -67,6 +74,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMAPKD54WQ-iguxwbk5k5",
     "in": "2026-12-28",
     "out": "2026-12-31",
     "channel": "airbnb",
@@ -76,6 +84,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMXXCYP2AP-ihojpqj7ot",
     "in": "2026-12-31",
     "out": "2027-01-02",
     "channel": "airbnb",
@@ -85,6 +94,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMTHNBNAWE-iguxy0qc1a",
     "in": "2027-01-03",
     "out": "2027-01-08",
     "channel": "airbnb",
@@ -94,6 +104,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKNWBQDF8-iguxyr88sm",
     "in": "2027-01-11",
     "out": "2027-01-14",
     "channel": "airbnb",
@@ -103,6 +114,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMS3TP3SN5-iguxzq5ykj",
     "in": "2027-01-21",
     "out": "2027-01-24",
     "channel": "airbnb",
@@ -112,6 +124,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHQYXZNPE-ih7mj6t7wd",
     "in": "2027-01-29",
     "out": "2027-01-31",
     "channel": "airbnb",
@@ -121,6 +134,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPKBP5XHF-iguxzq31rb",
     "in": "2027-01-31",
     "out": "2027-02-03",
     "channel": "airbnb",
@@ -130,6 +144,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCZ4ZQHSB-ih7thrhg2c",
     "in": "2027-02-06",
     "out": "2027-02-07",
     "channel": "airbnb",
@@ -139,6 +154,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM5TE5Z52F-iguy144bwa",
     "in": "2027-02-07",
     "out": "2027-02-10",
     "channel": "airbnb",
@@ -148,6 +164,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBRMRHFC3-iguy14anpf",
     "in": "2027-02-10",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -157,6 +174,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMQ2EAEQT-iguy21smpp",
     "in": "2027-02-15",
     "out": "2027-03-02",
     "channel": "airbnb",
@@ -166,6 +184,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMXXW4EPNK-iguy2l3jyh",
     "in": "2027-03-09",
     "out": "2027-03-13",
     "channel": "airbnb",
@@ -177,6 +196,7 @@
   ],
   "302U": [
    {
+    "code": "0-HM5JBHJEEH-ihok0mwn54",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -186,6 +206,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMXDT4MQ38-iguxv2ya3s",
     "in": "2026-10-31",
     "out": "2026-11-03",
     "channel": "airbnb",
@@ -195,6 +216,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJ3ED3CJB-ihqq7m6e0w",
     "in": "2026-12-20",
     "out": "2026-12-22",
     "channel": "airbnb",
@@ -204,6 +226,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPBBD3WB5-igvbgg0t08",
     "in": "2026-12-22",
     "out": "2026-12-23",
     "channel": "airbnb",
@@ -213,6 +236,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMYZM89XT-iguxwobitn",
     "in": "2026-12-23",
     "out": "2027-01-04",
     "channel": "airbnb",
@@ -222,6 +246,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHHTXC5DY-ihg17b74pm",
     "in": "2027-01-11",
     "out": "2027-01-24",
     "channel": "airbnb",
@@ -231,6 +256,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2NS8TEQX-iguy0oe5ti",
     "in": "2027-02-03",
     "out": "2027-02-05",
     "channel": "airbnb",
@@ -240,6 +266,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCAXN5RH9-iguy1401dc",
     "in": "2027-02-05",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -249,6 +276,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMN94SWSTN-igwm8e658r",
     "in": "2027-02-10",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -258,6 +286,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRDCTQA88-igypblibk9",
     "in": "2027-02-21",
     "out": "2027-02-23",
     "channel": "airbnb",
@@ -267,6 +296,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMC84N5R2H-ihdcl98qsy",
     "in": "2027-03-02",
     "out": "2027-03-07",
     "channel": "airbnb",
@@ -278,6 +308,7 @@
   ],
   "303U": [
    {
+    "code": "0-HMZ9FQ4AFY-iguxv29l9k",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -287,6 +318,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM488CZ48Z-ihq8r7mv2j",
     "in": "2026-10-23",
     "out": "2026-10-25",
     "channel": "airbnb",
@@ -296,6 +328,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMYBSQMHRS-iguxwodw49",
     "in": "2026-12-27",
     "out": "2026-12-30",
     "channel": "airbnb",
@@ -305,6 +338,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMXQEM3YB5-ihhwyyw7ob",
     "in": "2026-12-30",
     "out": "2027-01-01",
     "channel": "airbnb",
@@ -314,6 +348,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPWSNNZQA-iguxy0q229",
     "in": "2027-01-02",
     "out": "2027-01-03",
     "channel": "airbnb",
@@ -323,6 +358,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKMHSFR95-iguxyycr6e",
     "in": "2027-01-09",
     "out": "2027-01-12",
     "channel": "airbnb",
@@ -332,6 +368,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMM23CJJD4-iguxyyiols",
     "in": "2027-01-13",
     "out": "2027-01-15",
     "channel": "airbnb",
@@ -341,6 +378,7 @@
     "infants": 0
    },
    {
+    "code": "9-6968020085-ihwikrwwzc",
     "in": "2027-01-25",
     "out": "2027-01-27",
     "channel": "booking.com",
@@ -350,6 +388,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZSSAAFZ9-ihyqjcxtda",
     "in": "2027-01-28",
     "out": "2027-01-31",
     "channel": "airbnb",
@@ -359,6 +398,7 @@
     "infants": 1
    },
    {
+    "code": "0-HM3QZSSCKN-ihpimegv9b",
     "in": "2027-02-01",
     "out": "2027-02-04",
     "channel": "airbnb",
@@ -368,6 +408,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMB43CTZYB-iguy0ogd8w",
     "in": "2027-02-05",
     "out": "2027-02-06",
     "channel": "airbnb",
@@ -377,6 +418,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM33TRR45B-iguy148gnd",
     "in": "2027-02-08",
     "out": "2027-02-10",
     "channel": "airbnb",
@@ -386,6 +428,7 @@
     "infants": 0
    },
    {
+    "code": "0-HME2F59S9W-iguy1xd762",
     "in": "2027-02-11",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -395,6 +438,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMQ3TZCJ3-ih6clie0h4",
     "in": "2027-02-21",
     "out": "2027-02-28",
     "channel": "airbnb",
@@ -406,6 +450,7 @@
   ],
   "305U": [
    {
+    "code": "0-HMT9SEFYA8-iguxr72gpr",
     "in": "2026-09-24",
     "out": "2026-10-22",
     "channel": "airbnb",
@@ -415,6 +460,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMATYKBJ8S-iguxvupc9e",
     "in": "2026-12-11",
     "out": "2026-12-14",
     "channel": "airbnb",
@@ -424,6 +470,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMEREXX8ZD-iguxwogj3y",
     "in": "2026-12-26",
     "out": "2027-01-02",
     "channel": "airbnb",
@@ -433,6 +480,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3992CPAB-ihbmwiurwi",
     "in": "2027-01-09",
     "out": "2027-01-12",
     "channel": "airbnb",
@@ -442,6 +490,7 @@
     "infants": 1
    },
    {
+    "code": "0-HM4ZZNMHQY-ihksg7b4yu",
     "in": "2027-01-13",
     "out": "2027-01-17",
     "channel": "airbnb",
@@ -451,6 +500,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM5EAQPTEY-iguxzq266m",
     "in": "2027-01-22",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -462,6 +512,7 @@
   ],
   "306U": [
    {
+    "code": "0-HMKMPQW8BM-iguxtkrtb4",
     "in": "2026-09-29",
     "out": "2026-10-05",
     "channel": "airbnb",
@@ -471,6 +522,7 @@
     "infants": 0
    },
    {
+    "code": "9-5955079142-ihwx3gpvh2",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "booking.com",
@@ -480,6 +532,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMF8FZR94D-iguxvurvew",
     "in": "2026-12-11",
     "out": "2027-03-06",
     "channel": "airbnb",
@@ -491,6 +544,7 @@
   ],
   "307U": [
    {
+    "code": "0-HMT9ZEX5C8-iguxtkm691",
     "in": "2026-10-09",
     "out": "2026-10-30",
     "channel": "airbnb",
@@ -500,6 +554,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCXNTYCJ4-iguxvulyt7",
     "in": "2026-12-04",
     "out": "2027-02-07",
     "channel": "airbnb",
@@ -509,6 +564,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMW98EWF4D-iguy0oigab",
     "in": "2027-02-07",
     "out": "2027-02-09",
     "channel": "airbnb",
@@ -518,6 +574,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3YJZ99Z8-ih00ijw7ia",
     "in": "2027-02-10",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -527,6 +584,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8TA98NJE-iguy2p7nai",
     "in": "2027-02-26",
     "out": "2027-02-28",
     "channel": "airbnb",
@@ -538,6 +596,7 @@
   ],
   "308U": [
    {
+    "code": "0-HM5SW3FQHT-iguxtksilg",
     "in": "2026-10-03",
     "out": "2026-10-06",
     "channel": "airbnb",
@@ -547,6 +606,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRHRWQYD9-iguxtko8n8",
     "in": "2026-10-10",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -556,6 +616,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMD58MXTES-iguxv2bt7e",
     "in": "2026-10-17",
     "out": "2026-10-20",
     "channel": "airbnb",
@@ -565,6 +626,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM85E2XZN4-iguxv2uxwg",
     "in": "2026-10-31",
     "out": "2026-11-02",
     "channel": "airbnb",
@@ -574,6 +636,7 @@
     "infants": 0
    },
    {
+    "code": "0-HME2SETZKM-ihnybfup8z",
     "in": "2026-11-22",
     "out": "2026-11-24",
     "channel": "airbnb",
@@ -583,6 +646,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMA8YQSX42-ihhgm9hefo",
     "in": "2026-11-29",
     "out": "2026-12-01",
     "channel": "airbnb",
@@ -592,6 +656,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZKN2SFKD-iguxwo91fd",
     "in": "2026-12-16",
     "out": "2026-12-23",
     "channel": "airbnb",
@@ -601,6 +666,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMSDSPQTAE-iguxy0psim",
     "in": "2026-12-28",
     "out": "2027-01-01",
     "channel": "airbnb",
@@ -610,6 +676,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMX4J3FEZX-iguxy0q2tq",
     "in": "2027-01-01",
     "out": "2027-01-05",
     "channel": "airbnb",
@@ -619,6 +686,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJD23ZTTC-iguxy0wrrv",
     "in": "2027-01-08",
     "out": "2027-01-10",
     "channel": "airbnb",
@@ -628,6 +696,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMNQCM4ZC8-iguxyyg2gq",
     "in": "2027-01-10",
     "out": "2027-01-15",
     "channel": "airbnb",
@@ -637,6 +706,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCDHWF8DQ-iguxzpzry1",
     "in": "2027-01-15",
     "out": "2027-01-18",
     "channel": "airbnb",
@@ -646,6 +716,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCTW3FCT5-iguxzpzxtm",
     "in": "2027-01-27",
     "out": "2027-02-04",
     "channel": "airbnb",
@@ -655,6 +726,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9ZACNAF2-iguy1423yk",
     "in": "2027-02-06",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -664,6 +736,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMX2ADCBMM-iguy146fcd",
     "in": "2027-02-08",
     "out": "2027-02-11",
     "channel": "airbnb",
@@ -673,6 +746,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2JATZ5Q8-iguy21oama",
     "in": "2027-02-11",
     "out": "2027-02-16",
     "channel": "airbnb",
@@ -682,6 +756,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8JAFQ4Z9-ihu69e1q4o",
     "in": "2027-02-16",
     "out": "2027-02-20",
     "channel": "airbnb",
@@ -691,6 +766,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8QZSNXNJ-iguy2p5gcu",
     "in": "2027-02-26",
     "out": "2027-02-28",
     "channel": "airbnb",
@@ -702,6 +778,7 @@
   ],
   "310U": [
    {
+    "code": "0-HM3SHENE5T-ihnc0fkc96",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -711,6 +788,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJBMHQYA8-ihqrhiikxv",
     "in": "2026-12-26",
     "out": "2026-12-30",
     "channel": "airbnb",
@@ -720,6 +798,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4HDAAC8D-ihmqyhs52z",
     "in": "2026-12-31",
     "out": "2027-01-06",
     "channel": "airbnb",
@@ -729,6 +808,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM92XDA4P3-ihwg68e5k7",
     "in": "2027-01-11",
     "out": "2027-01-14",
     "channel": "airbnb",
@@ -738,6 +818,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMB3FD9RQS-ihyoa9k4f4",
     "in": "2027-01-25",
     "out": "2027-02-01",
     "channel": "airbnb",
@@ -747,6 +828,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRFNE94TB-iguxzqbdk9",
     "in": "2027-02-01",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -754,10 +836,21 @@
     "adults": 1,
     "children": 0,
     "infants": 0
+   },
+   {
+    "code": "9-6480860169-ihzjttj18f",
+    "in": "2027-02-27",
+    "out": "2027-03-07",
+    "channel": "booking.com",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "401U": [
    {
+    "code": "0-HMN5WX4EJB-ihdvgw4e0a",
     "in": "2026-10-05",
     "out": "2026-10-08",
     "channel": "airbnb",
@@ -767,6 +860,7 @@
     "infants": 0
    },
    {
+    "code": "9-6129150636-ihx1pi8ogy",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "booking.com",
@@ -776,6 +870,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJPDZSNXS-ihxba9s2jy",
     "in": "2026-10-11",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -785,6 +880,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMD4BNNMK3-ih2g22ruki",
     "in": "2026-12-26",
     "out": "2026-12-28",
     "channel": "airbnb",
@@ -794,6 +890,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKCMWMFFB-ihz3a6l2e6",
     "in": "2026-12-28",
     "out": "2027-01-03",
     "channel": "airbnb",
@@ -803,6 +900,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMPES49D5-ih10p0fy7d",
     "in": "2027-01-10",
     "out": "2027-01-15",
     "channel": "airbnb",
@@ -812,6 +910,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM95CDMBK5-igv1byl15p",
     "in": "2027-01-15",
     "out": "2027-01-25",
     "channel": "airbnb",
@@ -821,6 +920,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM855SRXXN-ihpn6mc82o",
     "in": "2027-01-27",
     "out": "2027-01-30",
     "channel": "airbnb",
@@ -830,6 +930,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMAZTKCTD9-igv1byo1x7",
     "in": "2027-02-06",
     "out": "2027-02-09",
     "channel": "airbnb",
@@ -839,6 +940,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9R3CSDAD-ihqdnggibp",
     "in": "2027-02-10",
     "out": "2027-02-11",
     "channel": "airbnb",
@@ -850,6 +952,7 @@
   ],
   "403U": [
    {
+    "code": "0-HMYC4QQFH5-ihpmjnw7qk",
     "in": "2026-10-09",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -859,6 +962,7 @@
     "infants": 0
    },
    {
+    "code": "9-5955027858-ihxcisq8st",
     "in": "2026-10-11",
     "out": "2026-10-12",
     "channel": "booking.com",
@@ -868,6 +972,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMER4ZCA2M-igv1cdx4ml",
     "in": "2026-12-28",
     "out": "2027-01-03",
     "channel": "airbnb",
@@ -877,6 +982,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMSNJ89RZ5-ihkipv79v7",
     "in": "2027-01-08",
     "out": "2027-01-12",
     "channel": "airbnb",
@@ -886,6 +992,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMFEFMDAYP-igv1ce0cr6",
     "in": "2027-01-13",
     "out": "2027-01-19",
     "channel": "airbnb",
@@ -895,6 +1002,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4SDMBWQZ-ihewtzc7xr",
     "in": "2027-01-23",
     "out": "2027-01-31",
     "channel": "airbnb",
@@ -904,6 +1012,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMYPWNZTM-ihjraf2g50",
     "in": "2027-02-09",
     "out": "2027-02-13",
     "channel": "airbnb",
@@ -915,6 +1024,7 @@
   ],
   "405U": [
    {
+    "code": "0-HM2YMY4X9R-igv1cknl8i",
     "in": "2026-10-10",
     "out": "2026-10-13",
     "channel": "airbnb",
@@ -924,6 +1034,7 @@
     "infants": 2
    },
    {
+    "code": "0-HMKHWYCYD9-igv1cl3rm1",
     "in": "2026-12-05",
     "out": "2026-12-07",
     "channel": "airbnb",
@@ -933,6 +1044,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZM2FN2XQ-igv1cl8d6o",
     "in": "2026-12-12",
     "out": "2026-12-13",
     "channel": "airbnb",
@@ -942,6 +1054,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBZ5H3FWB-ihu2j3qfk5",
     "in": "2026-12-14",
     "out": "2026-12-16",
     "channel": "airbnb",
@@ -951,6 +1064,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMYSM8YADM-igv1clep81",
     "in": "2026-12-17",
     "out": "2026-12-19",
     "channel": "airbnb",
@@ -960,6 +1074,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMETEEREDB-igv1clih6c",
     "in": "2026-12-23",
     "out": "2026-12-26",
     "channel": "airbnb",
@@ -969,6 +1084,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPQXKZTT8-igv1cllic9",
     "in": "2026-12-26",
     "out": "2026-12-28",
     "channel": "airbnb",
@@ -978,6 +1094,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMB44RSTDP-igv1clokhl",
     "in": "2026-12-31",
     "out": "2027-01-02",
     "channel": "airbnb",
@@ -987,6 +1104,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQCTWY5SX-igv1clrp2q",
     "in": "2027-01-07",
     "out": "2027-02-14",
     "channel": "airbnb",
@@ -996,6 +1114,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBMS8HSWS-igv1clvrp6",
     "in": "2027-02-18",
     "out": "2027-02-22",
     "channel": "airbnb",
@@ -1007,6 +1126,7 @@
   ],
   "501U": [
    {
+    "code": "0-HM4YZM5ZSB-ihsutmcu29",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1016,6 +1136,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMP3M4FD4P-igv1cr3py3",
     "in": "2026-12-27",
     "out": "2026-12-29",
     "channel": "airbnb",
@@ -1025,6 +1146,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMA5QWEW34-ihojnjuuby",
     "in": "2026-12-31",
     "out": "2027-01-02",
     "channel": "airbnb",
@@ -1034,6 +1156,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM5QPH5QSA-igv1cr77mh",
     "in": "2027-01-11",
     "out": "2027-01-16",
     "channel": "airbnb",
@@ -1043,6 +1166,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRT9AAP2X-ihmh1zdaep",
     "in": "2027-01-26",
     "out": "2027-02-06",
     "channel": "airbnb",
@@ -1054,6 +1178,7 @@
   ],
   "502U": [
    {
+    "code": "0-HM243KKTWK-ihspnpjed0",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1063,6 +1188,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKMNSQCM5-ih3gjhd33t",
     "in": "2026-10-11",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -1072,6 +1198,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9C2F5KRN-igv1cyzkam",
     "in": "2026-11-27",
     "out": "2026-12-05",
     "channel": "airbnb",
@@ -1081,6 +1208,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2FR2XC3W-ihyaim6r0o",
     "in": "2026-12-27",
     "out": "2026-12-30",
     "channel": "airbnb",
@@ -1090,6 +1218,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMDED2XSEB-igv1cz2rec",
     "in": "2027-01-11",
     "out": "2027-01-16",
     "channel": "airbnb",
@@ -1099,6 +1228,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9AK9PYFJ-ihy966734x",
     "in": "2027-01-26",
     "out": "2027-01-28",
     "channel": "airbnb",
@@ -1108,6 +1238,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9JPKNZ8F-ih3j0b6ml5",
     "in": "2027-01-30",
     "out": "2027-02-04",
     "channel": "airbnb",
@@ -1117,6 +1248,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMWFFH35SJ-igv1cz65ez",
     "in": "2027-02-05",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -1126,6 +1258,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM5WSZC8E5-igv1cza4y1",
     "in": "2027-02-09",
     "out": "2027-02-13",
     "channel": "airbnb",
@@ -1135,6 +1268,7 @@
     "infants": 0
    },
    {
+    "code": "9-6330387773_1-ihxpn2w18u",
     "in": "2027-02-23",
     "out": "2027-02-24",
     "channel": "booking.com",
@@ -1146,6 +1280,7 @@
   ],
   "503U": [
    {
+    "code": "0-HMZ3P3XYKS-ihkp5mlpor",
     "in": "2026-10-05",
     "out": "2026-10-06",
     "channel": "airbnb",
@@ -1155,6 +1290,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8533BKDF-ihpdispgyl",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1164,6 +1300,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM5DHW4QHC-ih6oo9tl1c",
     "in": "2026-10-11",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -1173,6 +1310,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJPDQYXN2-ihrfnkzy2c",
     "in": "2026-10-13",
     "out": "2026-10-14",
     "channel": "airbnb",
@@ -1182,6 +1320,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQCSCZAQB-igv1d8q08f",
     "in": "2026-10-20",
     "out": "2026-10-24",
     "channel": "airbnb",
@@ -1191,6 +1330,7 @@
     "infants": 1
    },
    {
+    "code": "0-HM5JT52248-ihsy1zq9sa",
     "in": "2026-10-25",
     "out": "2026-10-26",
     "channel": "airbnb",
@@ -1200,6 +1340,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKQTABRP8-igv1d8sxql",
     "in": "2026-12-02",
     "out": "2026-12-08",
     "channel": "airbnb",
@@ -1209,6 +1350,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPY3ZD3JM-igv1d8vtvu",
     "in": "2026-12-18",
     "out": "2026-12-20",
     "channel": "airbnb",
@@ -1218,6 +1360,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRA8KRDBT-ihyceblyqy",
     "in": "2026-12-27",
     "out": "2026-12-30",
     "channel": "airbnb",
@@ -1227,6 +1370,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJB8AKAAC-igv1d8zv78",
     "in": "2026-12-30",
     "out": "2026-12-31",
     "channel": "airbnb",
@@ -1236,6 +1380,7 @@
     "infants": 1
    },
    {
+    "code": "0-HMDCBRJSX3-igv1d93b3d",
     "in": "2027-01-01",
     "out": "2027-01-02",
     "channel": "airbnb",
@@ -1245,6 +1390,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBST5BXNQ-igv1d98d1j",
     "in": "2027-01-02",
     "out": "2027-01-08",
     "channel": "airbnb",
@@ -1254,6 +1400,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMM88SETRD-igv1d9bho0",
     "in": "2027-01-11",
     "out": "2027-01-16",
     "channel": "airbnb",
@@ -1263,6 +1410,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM948FZ4FP-ihdesfnpv0",
     "in": "2027-01-22",
     "out": "2027-01-26",
     "channel": "airbnb",
@@ -1272,6 +1420,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMD5TWTACH-ihn4nnzsvz",
     "in": "2027-01-27",
     "out": "2027-01-31",
     "channel": "airbnb",
@@ -1281,6 +1430,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8E395FEW-igv1d9eed5",
     "in": "2027-01-31",
     "out": "2027-02-02",
     "channel": "airbnb",
@@ -1290,6 +1440,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZNADJZCE-igv1d9hc57",
     "in": "2027-02-02",
     "out": "2027-02-05",
     "channel": "airbnb",
@@ -1299,6 +1450,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM98HQWCKC-igv1d9l8md",
     "in": "2027-02-05",
     "out": "2027-02-07",
     "channel": "airbnb",
@@ -1308,6 +1460,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCSAZMA4S-ihh5zi7fyb",
     "in": "2027-02-07",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -1317,6 +1470,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMTY3AY4E5-ihmno4yq1t",
     "in": "2027-02-09",
     "out": "2027-02-10",
     "channel": "airbnb",
@@ -1326,6 +1480,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMADSSNMY3-igv1d9o3hg",
     "in": "2027-02-11",
     "out": "2027-02-13",
     "channel": "airbnb",
@@ -1335,6 +1490,7 @@
     "infants": 0
    },
    {
+    "code": "9-6330387773-ihxpn2w18u",
     "in": "2027-02-23",
     "out": "2027-02-24",
     "channel": "booking.com",
@@ -1346,6 +1502,7 @@
   ],
   "505U": [
    {
+    "code": "0-HM3DBPWQRJ-ihw30otoah",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1355,6 +1512,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMDME89F5T-ihq9pkro0s",
     "in": "2026-12-26",
     "out": "2026-12-31",
     "channel": "airbnb",
@@ -1364,6 +1522,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKQADFDEA-ihbzb0kqne",
     "in": "2027-01-15",
     "out": "2027-01-27",
     "channel": "airbnb",
@@ -1373,6 +1532,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMP5DYYYWX-iho845ar9f",
     "in": "2027-01-29",
     "out": "2027-02-01",
     "channel": "airbnb",
@@ -1382,6 +1542,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9H2EM928-igv1dbukl7",
     "in": "2027-02-04",
     "out": "2027-02-09",
     "channel": "airbnb",
@@ -1391,6 +1552,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJTNCMT8B-ihobd5z7rl",
     "in": "2027-02-10",
     "out": "2027-02-16",
     "channel": "airbnb",
@@ -1402,6 +1564,7 @@
   ],
   "601U": [
    {
+    "code": "0-HMCPN3NT55-ihtq6fpnug",
     "in": "2026-12-31",
     "out": "2027-01-02",
     "channel": "airbnb",
@@ -1411,6 +1574,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4YEQPZ84-ihdx7q9bwe",
     "in": "2027-02-05",
     "out": "2027-02-07",
     "channel": "airbnb",
@@ -1422,6 +1586,7 @@
   ],
   "602U": [
    {
+    "code": "0-HMRQDHC4Q9-igv1dvg2b8",
     "in": "2026-10-05",
     "out": "2026-10-07",
     "channel": "airbnb",
@@ -1431,6 +1596,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9B2QAHA5-ihrvp7omhf",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1440,6 +1606,7 @@
     "infants": 1
    },
    {
+    "code": "0-HMXFRJWJKB-ihkuncollt",
     "in": "2026-10-11",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -1449,6 +1616,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMAT4YZS8Q-ihrwoifs1t",
     "in": "2026-10-16",
     "out": "2026-10-18",
     "channel": "airbnb",
@@ -1458,6 +1626,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8WFQXEJR-igv1dvk248",
     "in": "2026-10-20",
     "out": "2026-10-22",
     "channel": "airbnb",
@@ -1467,6 +1636,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3YMXH8SK-igv1dvnbhp",
     "in": "2026-10-26",
     "out": "2026-10-28",
     "channel": "airbnb",
@@ -1476,6 +1646,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRQKTHXEC-ih8x5tfbfz",
     "in": "2026-10-29",
     "out": "2026-11-01",
     "channel": "airbnb",
@@ -1485,6 +1656,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQAX2XDY4-ihyk6lap2p",
     "in": "2026-12-07",
     "out": "2026-12-09",
     "channel": "airbnb",
@@ -1494,6 +1666,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHQC8X3R3-igv1dvqk94",
     "in": "2026-12-14",
     "out": "2026-12-16",
     "channel": "airbnb",
@@ -1503,6 +1676,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4CWSK4MY-ihahvho8j5",
     "in": "2026-12-17",
     "out": "2026-12-19",
     "channel": "airbnb",
@@ -1512,6 +1686,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZPC8B3AT-ihx2gjdov2",
     "in": "2026-12-25",
     "out": "2026-12-27",
     "channel": "airbnb",
@@ -1521,6 +1696,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3F5ZYKAM-ih89inzyk5",
     "in": "2026-12-27",
     "out": "2026-12-31",
     "channel": "airbnb",
@@ -1530,6 +1706,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMCZFXZCM-igv1dvtxvq",
     "in": "2026-12-31",
     "out": "2027-01-03",
     "channel": "airbnb",
@@ -1539,6 +1716,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8PCJ53ME-ih5jx90pah",
     "in": "2027-01-07",
     "out": "2027-01-12",
     "channel": "airbnb",
@@ -1548,6 +1726,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM95SJA8BM-igv1dvx7ma",
     "in": "2027-01-14",
     "out": "2027-01-17",
     "channel": "airbnb",
@@ -1557,6 +1736,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJHKMNKF2-ih2zylz5fe",
     "in": "2027-01-21",
     "out": "2027-01-23",
     "channel": "airbnb",
@@ -1566,6 +1746,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9MSF9FJQ-igv1dw8891",
     "in": "2027-01-24",
     "out": "2027-01-25",
     "channel": "airbnb",
@@ -1575,6 +1756,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4S5WMS22-ih1s3wc01b",
     "in": "2027-01-28",
     "out": "2027-02-01",
     "channel": "airbnb",
@@ -1584,6 +1766,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPYA38HTK-igv1dwbc23",
     "in": "2027-02-04",
     "out": "2027-02-07",
     "channel": "airbnb",
@@ -1593,6 +1776,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM828CH34J-igv1dweee9",
     "in": "2027-02-07",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -1602,6 +1786,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMSDD8NS42-ih8yfow4ln",
     "in": "2027-02-09",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -1611,6 +1796,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2KJ4RY2R-igv1dwiuhh",
     "in": "2027-02-12",
     "out": "2027-02-13",
     "channel": "airbnb",
@@ -1620,6 +1806,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMSXYA2CE8-ih70z1i4ex",
     "in": "2027-02-13",
     "out": "2027-02-14",
     "channel": "airbnb",
@@ -1629,6 +1816,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRNSFSBSX-ih7odx4cki",
     "in": "2027-02-21",
     "out": "2027-02-24",
     "channel": "airbnb",
@@ -1640,6 +1828,7 @@
   ],
   "605U": [
    {
+    "code": "0-HMD2243D3D-ihtslvhble",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1649,6 +1838,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBYPXAKB4-ihicw3u4m0",
     "in": "2026-12-12",
     "out": "2026-12-13",
     "channel": "airbnb",
@@ -1658,6 +1848,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMHHDDBY8-igv1dx7qme",
     "in": "2026-12-26",
     "out": "2026-12-28",
     "channel": "airbnb",
@@ -1667,6 +1858,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMYXEESRPS-igv1dxbri9",
     "in": "2026-12-29",
     "out": "2027-01-03",
     "channel": "airbnb",
@@ -1676,6 +1868,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZXEZF9BP-ihjpiace8y",
     "in": "2027-01-07",
     "out": "2027-01-10",
     "channel": "airbnb",
@@ -1685,6 +1878,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQSW8PQX8-igwbw1rqmf",
     "in": "2027-01-10",
     "out": "2027-01-14",
     "channel": "airbnb",
@@ -1694,6 +1888,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4RFP93FJ-ihidb7xvhi",
     "in": "2027-01-29",
     "out": "2027-02-01",
     "channel": "airbnb",
@@ -1703,6 +1898,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMTRNSYCW5-ihxmi2tw3u",
     "in": "2027-02-09",
     "out": "2027-02-14",
     "channel": "airbnb",
@@ -1712,6 +1908,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2YP5244W-igv1dxejfi",
     "in": "2027-02-14",
     "out": "2027-02-17",
     "channel": "airbnb",
@@ -1723,6 +1920,7 @@
   ],
   "701U": [
    {
+    "code": "0-HM3AFHWDRX-igv1e5pmg3",
     "in": "2026-10-09",
     "out": "2026-10-10",
     "channel": "airbnb",
@@ -1732,6 +1930,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQWKRKD4A-ihw5my6p5e",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -1741,6 +1940,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMS3KAJBP-ih0x369hip",
     "in": "2026-10-29",
     "out": "2026-11-01",
     "channel": "airbnb",
@@ -1750,6 +1950,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQNHMFSBZ-igvdol2s3s",
     "in": "2026-12-08",
     "out": "2026-12-11",
     "channel": "airbnb",
@@ -1759,6 +1960,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHHA9AFXT-ihws3qyn1l",
     "in": "2026-12-14",
     "out": "2026-12-17",
     "channel": "airbnb",
@@ -1768,6 +1970,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2C3JFAC9-igv1e5smtf",
     "in": "2026-12-21",
     "out": "2026-12-23",
     "channel": "airbnb",
@@ -1777,6 +1980,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9Q38FAH5-igv1e5yn71",
     "in": "2026-12-29",
     "out": "2027-01-15",
     "channel": "airbnb",
@@ -1786,6 +1990,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZWTX98EE-ih85k24g17",
     "in": "2027-01-16",
     "out": "2027-01-17",
     "channel": "airbnb",
@@ -1795,6 +2000,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMD5S8SF5Y-ihkhdv48c8",
     "in": "2027-01-18",
     "out": "2027-01-21",
     "channel": "airbnb",
@@ -1804,6 +2010,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMH3N48Q9Y-ihphhr927e",
     "in": "2027-01-23",
     "out": "2027-01-25",
     "channel": "airbnb",
@@ -1813,6 +2020,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZYK4TTX9-igv1e62qjd",
     "in": "2027-01-27",
     "out": "2027-01-29",
     "channel": "airbnb",
@@ -1822,6 +2030,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMKKZ59XJ-igv1e6fozi",
     "in": "2027-01-31",
     "out": "2027-02-03",
     "channel": "airbnb",
@@ -1831,6 +2040,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMRAT5CZKK-igv1e6jdhz",
     "in": "2027-02-06",
     "out": "2027-02-09",
     "channel": "airbnb",
@@ -1840,6 +2050,7 @@
     "infants": 1
    },
    {
+    "code": "0-HMNY2BQ2SD-igv1e6oazg",
     "in": "2027-02-10",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -1849,6 +2060,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8YD59C2Q-igv1e6rvhi",
     "in": "2027-02-21",
     "out": "2027-02-26",
     "channel": "airbnb",
@@ -1860,6 +2072,7 @@
   ],
   "702U": [
    {
+    "code": "0-HMFNR3AEBF-igv1ei4gsq",
     "in": "2026-10-06",
     "out": "2026-10-08",
     "channel": "airbnb",
@@ -1869,6 +2082,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMXJ4X4EEN-igv1ei7lnx",
     "in": "2026-10-10",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -1878,6 +2092,7 @@
     "infants": 1
    },
    {
+    "code": "0-HMECCB5KMT-ihvfwjqjtz",
     "in": "2026-10-19",
     "out": "2026-10-20",
     "channel": "airbnb",
@@ -1887,6 +2102,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZJWPZ8M9-igv1eibd5m",
     "in": "2026-10-21",
     "out": "2026-10-23",
     "channel": "airbnb",
@@ -1896,6 +2112,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMR4N9BCHK-igv1eipgtt",
     "in": "2026-10-23",
     "out": "2026-10-27",
     "channel": "airbnb",
@@ -1905,6 +2122,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMYEC2FMMF-ih2f33q4gn",
     "in": "2026-12-14",
     "out": "2026-12-16",
     "channel": "airbnb",
@@ -1914,6 +2132,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3W3QRTQQ-ihcuax3ndc",
     "in": "2026-12-20",
     "out": "2026-12-23",
     "channel": "airbnb",
@@ -1923,6 +2142,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMFDXDWECX-ihfzq8vstb",
     "in": "2026-12-26",
     "out": "2026-12-27",
     "channel": "airbnb",
@@ -1932,6 +2152,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCPS3DAPN-ihvbh2tofj",
     "in": "2026-12-31",
     "out": "2027-01-01",
     "channel": "airbnb",
@@ -1941,6 +2162,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMW4FRRXNM-igv1eit6ex",
     "in": "2027-01-01",
     "out": "2027-01-03",
     "channel": "airbnb",
@@ -1950,6 +2172,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM2J83EREA-igv1eiwrvw",
     "in": "2027-01-07",
     "out": "2027-01-11",
     "channel": "airbnb",
@@ -1959,6 +2182,17 @@
     "infants": 0
    },
    {
+    "code": "0-HM4WEZMKH3-igv1ej05jj",
+    "in": "2027-01-15",
+    "out": "2027-01-18",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "0-HMXH48QKEM-ihycc1onbl",
     "in": "2027-01-20",
     "out": "2027-01-22",
     "channel": "airbnb",
@@ -1968,6 +2202,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBN2N54AK-igv1ej5c74",
     "in": "2027-01-22",
     "out": "2027-02-12",
     "channel": "airbnb",
@@ -1977,6 +2212,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBSCAMH5C-ihey6062x4",
     "in": "2027-02-18",
     "out": "2027-02-21",
     "channel": "airbnb",
@@ -1986,6 +2222,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMM82R4P9S-igv1ej8tro",
     "in": "2027-02-21",
     "out": "2027-02-23",
     "channel": "airbnb",
@@ -1997,6 +2234,7 @@
   ],
   "705U": [
    {
+    "code": "0-HMY3HSMF9E-igxxc2mo2f",
     "in": "2026-10-04",
     "out": "2026-10-06",
     "channel": "airbnb",
@@ -2006,6 +2244,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMWRRFECAR-igv1ehjzrg",
     "in": "2026-10-09",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -2015,6 +2254,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMFBF52BYT-igv1ehn6qr",
     "in": "2026-10-15",
     "out": "2026-10-17",
     "channel": "airbnb",
@@ -2024,6 +2264,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8DYA5ASB-igv1ehqde2",
     "in": "2026-10-17",
     "out": "2026-10-18",
     "channel": "airbnb",
@@ -2033,6 +2274,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMPZNNA88A-igv1ehu12y",
     "in": "2026-10-24",
     "out": "2026-10-28",
     "channel": "airbnb",
@@ -2042,6 +2284,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMXPW9QWEN-ihfm0igc4r",
     "in": "2026-11-08",
     "out": "2026-11-09",
     "channel": "airbnb",
@@ -2051,6 +2294,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCMT8KXEA-ih6wiws0a3",
     "in": "2026-12-05",
     "out": "2026-12-08",
     "channel": "airbnb",
@@ -2060,6 +2304,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMFKFQQXK3-igv1ehy8nh",
     "in": "2026-12-14",
     "out": "2026-12-18",
     "channel": "airbnb",
@@ -2069,6 +2314,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZMBJF5AQ-igv1ei1jbz",
     "in": "2026-12-18",
     "out": "2026-12-19",
     "channel": "airbnb",
@@ -2078,6 +2324,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM5QAT9M9D-igv1ei4wj2",
     "in": "2026-12-20",
     "out": "2026-12-23",
     "channel": "airbnb",
@@ -2087,6 +2334,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMYWMCM5CE-igv1ei856a",
     "in": "2026-12-25",
     "out": "2027-01-01",
     "channel": "airbnb",
@@ -2096,6 +2344,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM4KWAX3JF-igv1eicg9m",
     "in": "2027-01-01",
     "out": "2027-01-04",
     "channel": "airbnb",
@@ -2105,6 +2354,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJFJRED49-igv1eipqa3",
     "in": "2027-01-04",
     "out": "2027-01-07",
     "channel": "airbnb",
@@ -2114,6 +2364,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMNCDQH4BE-igv1eitp15",
     "in": "2027-01-07",
     "out": "2027-01-11",
     "channel": "airbnb",
@@ -2123,6 +2374,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMCEZTXJ2B-igv1eixe7o",
     "in": "2027-01-14",
     "out": "2027-01-17",
     "channel": "airbnb",
@@ -2132,6 +2384,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMSEAB22C3-igv1ej1569",
     "in": "2027-01-19",
     "out": "2027-01-21",
     "channel": "airbnb",
@@ -2141,6 +2394,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3YAZZ3YZ-igv1ej61u1",
     "in": "2027-01-21",
     "out": "2027-01-23",
     "channel": "airbnb",
@@ -2150,6 +2404,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMEQ3Y5FXK-ihgd4j3tqc",
     "in": "2027-01-26",
     "out": "2027-01-31",
     "channel": "airbnb",
@@ -2159,6 +2414,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMC8P8FSP8-igv1ej9lar",
     "in": "2027-01-31",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -2168,6 +2424,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMQ3MXD4QJ-ih7o27t1ul",
     "in": "2027-02-08",
     "out": "2027-02-10",
     "channel": "airbnb",
@@ -2177,6 +2434,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHQRSJ45Q-igv1ejcs9p",
     "in": "2027-02-10",
     "out": "2027-02-14",
     "channel": "airbnb",
@@ -2186,6 +2444,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMWPC8X4SQ-igv1ejg246",
     "in": "2027-02-16",
     "out": "2027-02-19",
     "channel": "airbnb",
@@ -2195,6 +2454,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMMPEH88TB-igv1ejjo4x",
     "in": "2027-02-20",
     "out": "2027-02-25",
     "channel": "airbnb",
@@ -2204,6 +2464,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3EKFHMR4-igzz8i7ixu",
     "in": "2027-03-09",
     "out": "2027-03-13",
     "channel": "airbnb",
@@ -2215,6 +2476,7 @@
   ],
   "A201": [
    {
+    "code": "0-HM2E93Q3RS-igv1od5age",
     "in": "2026-10-07",
     "out": "2026-10-09",
     "channel": "airbnb",
@@ -2224,6 +2486,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM8FDEDW2E-ihif4h56vi",
     "in": "2026-10-09",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -2233,6 +2496,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM3JXNRWMM-igv1od8dpe",
     "in": "2026-12-21",
     "out": "2026-12-23",
     "channel": "airbnb",
@@ -2242,6 +2506,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKAQ9RDZD-igv1odb7rv",
     "in": "2026-12-27",
     "out": "2026-12-28",
     "channel": "airbnb",
@@ -2251,6 +2516,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM9KRKN88R-ih3og3eage",
     "in": "2026-12-28",
     "out": "2026-12-31",
     "channel": "airbnb",
@@ -2260,6 +2526,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHP8CF2JC-igv1ode4b6",
     "in": "2027-02-04",
     "out": "2027-02-13",
     "channel": "airbnb",
@@ -2271,6 +2538,7 @@
   ],
   "A202": [
    {
+    "code": "0-HMJZT39AXW-igv1oij5cl",
     "in": "2026-10-03",
     "out": "2026-10-06",
     "channel": "airbnb",
@@ -2280,6 +2548,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMD2RS4TBY-ihocfe5pll",
     "in": "2026-10-06",
     "out": "2026-10-09",
     "channel": "airbnb",
@@ -2289,6 +2558,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMHJFK89ZC-ihshdsn241",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -2300,6 +2570,7 @@
   ],
   "A203": [
    {
+    "code": "0-HMKMS9YTC2-ihlsrr7ecj",
     "in": "2026-10-01",
     "out": "2026-10-15",
     "channel": "airbnb",
@@ -2309,6 +2580,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMDNMSXZTB-igv1okf77u",
     "in": "2027-01-28",
     "out": "2027-02-24",
     "channel": "airbnb",
@@ -2318,6 +2590,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMKEJZWHCQ-igv1oki0tm",
     "in": "2027-03-02",
     "out": "2027-03-04",
     "channel": "airbnb",
@@ -2329,6 +2602,7 @@
   ],
   "A205": [
    {
+    "code": "0-HM5HAWD24Z-igv1oymp2z",
     "in": "2026-10-03",
     "out": "2026-10-05",
     "channel": "airbnb",
@@ -2338,6 +2612,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMBHJHMQ5H-ihkvtos7ij",
     "in": "2026-10-10",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -2347,6 +2622,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMAXKA8CZA-igv1oypuin",
     "in": "2026-10-21",
     "out": "2026-10-24",
     "channel": "airbnb",
@@ -2356,6 +2632,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMDYZKDKA9-ih85uu41c2",
     "in": "2026-12-26",
     "out": "2026-12-27",
     "channel": "airbnb",
@@ -2365,6 +2642,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMK339DAAX-igv1oyt3p1",
     "in": "2026-12-27",
     "out": "2027-01-14",
     "channel": "airbnb",
@@ -2374,6 +2652,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMDFQHF2DD-igv1oywdnm",
     "in": "2027-01-26",
     "out": "2027-02-02",
     "channel": "airbnb",
@@ -2383,6 +2662,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMP4Z8SPQE-igyycazx14",
     "in": "2027-02-05",
     "out": "2027-02-08",
     "channel": "airbnb",
@@ -2392,6 +2672,7 @@
     "infants": 0
    },
    {
+    "code": "0-HM29N45A5C-igv1oz0kxl",
     "in": "2027-02-11",
     "out": "2027-02-14",
     "channel": "airbnb",
@@ -2403,6 +2684,7 @@
   ],
   "A301": [
    {
+    "code": "9-5136500121-ihw5xt3mnj",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "booking.com",
@@ -2414,8 +2696,9 @@
   ],
   "A302": [
    {
+    "code": "0-HM42ZXW4Z4-ihje21an27",
     "in": "2026-10-01",
-    "out": "2026-10-18",
+    "out": "2026-10-26",
     "channel": "airbnb",
     "guests": 3,
     "adults": 3,
@@ -2425,6 +2708,7 @@
   ],
   "A303": [
    {
+    "code": "0-HMZHFDJC9H-ihw3681c6o",
     "in": "2026-10-10",
     "out": "2026-10-11",
     "channel": "airbnb",
@@ -2434,6 +2718,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMZXPRP4CS-ihs0iubtie",
     "in": "2027-01-23",
     "out": "2027-01-28",
     "channel": "airbnb",
@@ -2443,6 +2728,7 @@
     "infants": 0
    },
    {
+    "code": "0-HME32NFBAQ-igxn2hhnch",
     "in": "2027-02-13",
     "out": "2027-02-20",
     "channel": "airbnb",
@@ -2454,6 +2740,7 @@
   ],
   "A305": [
    {
+    "code": "0-HMNZR8HC98-igxntmirmv",
     "in": "2026-10-10",
     "out": "2026-10-12",
     "channel": "airbnb",
@@ -2463,6 +2750,7 @@
     "infants": 0
    },
    {
+    "code": "0-HMJNQAS3C8-igv1pomzyo",
     "in": "2027-01-01",
     "out": "2027-01-06",
     "channel": "airbnb",
@@ -2472,6 +2760,17 @@
     "infants": 0
    },
    {
+    "code": "0-HMEDKE544X-ihzfsp248x",
+    "in": "2027-02-06",
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "0-HMPB58NJN4-ihozm04sla",
     "in": "2027-02-11",
     "out": "2027-02-16",
     "channel": "airbnb",
