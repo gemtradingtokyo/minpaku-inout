@@ -156,6 +156,7 @@ def main():
         infants = r.get("number_of_infants") or 0
         result["rooms"][room].append(
             {
+                "code": key,
                 "in": r.get("check_in_date"),
                 "out": r.get("check_out_date"),
                 "channel": r.get("channel_type"),
