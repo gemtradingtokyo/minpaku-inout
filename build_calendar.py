@@ -37,7 +37,7 @@ API = "https://api.hostex.io/v3"
 TIMEOUT = 30
 PAGE = 100
 PAST_DAYS = 7
-FUTURE_DAYS = 365
+FUTURE_DAYS = 170
 
 
 def api_get(path, params):
