@@ -115,7 +115,7 @@ def main():
     params = {
         "status": "accepted",
         "start_check_out_date": (today - datetime.timedelta(days=PAST_DAYS)).isoformat(),
-        "end_check_in_date": (today + datetime.timedelta(days=FUTURE_DAYS)).isoformat(),
+        "end_check_out_date": (today + datetime.timedelta(days=FUTURE_DAYS)).isoformat(),
         "order_by": "check_in_date",
     }
 
