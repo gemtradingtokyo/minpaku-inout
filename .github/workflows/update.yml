@@ -3,7 +3,12 @@ name: Update calendar.json
 on:
   schedule:
     - cron: "5 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      list_properties:
+        description: "Hostexの物件ID一覧をログに出すだけ（calendar.jsonは更新しない）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,12 +23,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build calendar.json
+      - name: List Hostex properties
+        if: ${{ inputs.list_properties }}
         env:
-          ICAL_URLS: ${{ secrets.ICAL_URLS }}
+          HOSTEX_ACCESS_TOKEN: ${{ secrets.HOSTEX_ACCESS_TOKEN }}
+        run: python3 build_calendar.py --list-properties
+
+      - name: Build calendar.json
+        if: ${{ !inputs.list_properties }}
+        env:
+          HOSTEX_ACCESS_TOKEN: ${{ secrets.HOSTEX_ACCESS_TOKEN }}
+          HOSTEX_ROOMS: ${{ secrets.HOSTEX_ROOMS }}
         run: python3 build_calendar.py
 
       - name: Commit if changed
+        if: ${{ !inputs.list_properties }}
         run: |
           git config user.name "cal-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
