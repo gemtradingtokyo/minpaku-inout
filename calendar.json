@@ -1,1077 +1,2484 @@
 {
- "generated_utc": "2026-10-11T21:48:07Z",
+ "generated_utc": "2026-10-12T01:11:07Z",
+ "source": "hostex",
  "rooms": {
   "301U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-13"
+    "out": "2026-10-13",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-20",
-    "out": "2026-10-22"
+    "out": "2026-10-22",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-22",
-    "out": "2026-10-25"
+    "out": "2026-10-25",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-30",
-    "out": "2026-11-03"
+    "out": "2026-11-03",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-11-08",
-    "out": "2026-11-09"
+    "out": "2026-11-09",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-11-20",
-    "out": "2026-11-23"
+    "out": "2026-11-23",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-15",
-    "out": "2026-12-17"
+    "out": "2026-12-17",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-28",
-    "out": "2026-12-31"
+    "out": "2026-12-31",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-31",
-    "out": "2027-01-02"
+    "out": "2027-01-02",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-03",
-    "out": "2027-01-08"
+    "out": "2027-01-08",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-01-11",
-    "out": "2027-01-14"
+    "out": "2027-01-14",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-21",
-    "out": "2027-01-24"
+    "out": "2027-01-24",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-29",
-    "out": "2027-01-31"
+    "out": "2027-01-31",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-31",
-    "out": "2027-02-03"
+    "out": "2027-02-03",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-06",
-    "out": "2027-02-07"
+    "out": "2027-02-07",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-07",
-    "out": "2027-02-10"
+    "out": "2027-02-10",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-15",
-    "out": "2027-03-02"
+    "out": "2027-03-02",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-03-09",
-    "out": "2027-03-13"
+    "out": "2027-03-13",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    }
   ],
   "302U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-31",
-    "out": "2026-11-03"
+    "out": "2026-11-03",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-20",
-    "out": "2026-12-22"
+    "out": "2026-12-22",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-22",
-    "out": "2026-12-23"
+    "out": "2026-12-23",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-23",
-    "out": "2027-01-04"
+    "out": "2027-01-04",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-01-11",
-    "out": "2027-01-24"
+    "out": "2027-01-24",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-03",
-    "out": "2027-02-05"
+    "out": "2027-02-05",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-05",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-21",
-    "out": "2027-02-23"
+    "out": "2027-02-23",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-03-02",
-    "out": "2027-03-07"
+    "out": "2027-03-07",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    }
   ],
   "303U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-23",
-    "out": "2026-10-25"
+    "out": "2026-10-25",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2026-12-30"
+    "out": "2026-12-30",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-30",
-    "out": "2027-01-01"
+    "out": "2027-01-01",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-02",
-    "out": "2027-01-03"
+    "out": "2027-01-03",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-09",
-    "out": "2027-01-12"
+    "out": "2027-01-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-13",
-    "out": "2027-01-15"
+    "out": "2027-01-15",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "in": "2027-01-25",
+    "out": "2027-01-27",
+    "channel": "booking.com",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-28",
-    "out": "2027-01-31"
+    "out": "2027-01-31",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 0,
+    "infants": 1
    },
    {
     "in": "2027-02-01",
-    "out": "2027-02-04"
+    "out": "2027-02-04",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-05",
-    "out": "2027-02-06"
+    "out": "2027-02-06",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-08",
-    "out": "2027-02-10"
+    "out": "2027-02-10",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-11",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-21",
-    "out": "2027-02-28"
+    "out": "2027-02-28",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "305U": [
    {
     "in": "2026-09-24",
-    "out": "2026-10-22"
+    "out": "2026-10-22",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-11",
-    "out": "2026-12-14"
+    "out": "2026-12-14",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2027-01-02"
+    "out": "2027-01-02",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-09",
-    "out": "2027-01-12"
+    "out": "2027-01-12",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 0,
+    "infants": 1
    },
    {
     "in": "2027-01-13",
-    "out": "2027-01-17"
+    "out": "2027-01-17",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-01-22",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "306U": [
    {
+    "in": "2026-09-29",
+    "out": "2026-10-05",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "in": "2026-10-10",
+    "out": "2026-10-11",
+    "channel": "booking.com",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
+   },
+   {
     "in": "2026-12-11",
-    "out": "2027-03-06"
+    "out": "2027-03-06",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "307U": [
    {
     "in": "2026-10-09",
-    "out": "2026-10-30"
+    "out": "2026-10-30",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-04",
-    "out": "2027-02-07"
+    "out": "2027-02-07",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-07",
-    "out": "2027-02-09"
+    "out": "2027-02-09",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-26",
-    "out": "2027-02-28"
+    "out": "2027-02-28",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "308U": [
    {
+    "in": "2026-10-03",
+    "out": "2026-10-06",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-10",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-17",
-    "out": "2026-10-20"
+    "out": "2026-10-20",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-31",
-    "out": "2026-11-02"
+    "out": "2026-11-02",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-11-22",
-    "out": "2026-11-24"
+    "out": "2026-11-24",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-11-29",
-    "out": "2026-12-01"
+    "out": "2026-12-01",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-16",
-    "out": "2026-12-23"
+    "out": "2026-12-23",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-28",
-    "out": "2027-01-01"
+    "out": "2027-01-01",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-01",
-    "out": "2027-01-05"
+    "out": "2027-01-05",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-08",
-    "out": "2027-01-10"
+    "out": "2027-01-10",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-10",
-    "out": "2027-01-15"
+    "out": "2027-01-15",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-15",
-    "out": "2027-01-18"
+    "out": "2027-01-18",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-27",
-    "out": "2027-02-04"
+    "out": "2027-02-04",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-06",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-08",
-    "out": "2027-02-11"
+    "out": "2027-02-11",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-11",
-    "out": "2027-02-16"
+    "out": "2027-02-16",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-16",
-    "out": "2027-02-20"
+    "out": "2027-02-20",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-26",
-    "out": "2027-02-28"
-   },
-   {
-    "in": "2027-05-03",
-    "out": "2027-05-05"
+    "out": "2027-02-28",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "310U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-30"
+    "out": "2026-12-30",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-31",
-    "out": "2027-01-06"
+    "out": "2027-01-06",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-11",
-    "out": "2027-01-14"
+    "out": "2027-01-14",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-25",
-    "out": "2027-02-01"
+    "out": "2027-02-01",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-01",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    }
   ],
   "401U": [
    {
+    "in": "2026-10-05",
+    "out": "2026-10-08",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "in": "2026-10-10",
+    "out": "2026-10-11",
+    "channel": "booking.com",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
+   },
+   {
     "in": "2026-10-11",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-28"
+    "out": "2026-12-28",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 4,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-12-28",
-    "out": "2027-01-03"
+    "out": "2027-01-03",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-10",
-    "out": "2027-01-15"
+    "out": "2027-01-15",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-15",
-    "out": "2027-01-25"
+    "out": "2027-01-25",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-27",
-    "out": "2027-01-30"
+    "out": "2027-01-30",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-06",
-    "out": "2027-02-09"
+    "out": "2027-02-09",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-11"
+    "out": "2027-02-11",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    }
   ],
   "403U": [
    {
     "in": "2026-10-09",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "in": "2026-10-11",
+    "out": "2026-10-12",
+    "channel": "booking.com",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-28",
-    "out": "2027-01-03"
+    "out": "2027-01-03",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-08",
-    "out": "2027-01-12"
+    "out": "2027-01-12",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-13",
-    "out": "2027-01-19"
+    "out": "2027-01-19",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-23",
-    "out": "2027-01-31"
+    "out": "2027-01-31",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-09",
-    "out": "2027-02-13"
+    "out": "2027-02-13",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    }
   ],
   "405U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-13"
+    "out": "2026-10-13",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 4,
+    "children": 0,
+    "infants": 2
    },
    {
     "in": "2026-12-05",
-    "out": "2026-12-07"
+    "out": "2026-12-07",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-12",
-    "out": "2026-12-13"
+    "out": "2026-12-13",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 3,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-14",
-    "out": "2026-12-16"
+    "out": "2026-12-16",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-17",
-    "out": "2026-12-19"
+    "out": "2026-12-19",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-23",
-    "out": "2026-12-26"
+    "out": "2026-12-26",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-28"
+    "out": "2026-12-28",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-31",
-    "out": "2027-01-02"
+    "out": "2027-01-02",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-07",
-    "out": "2027-02-14"
+    "out": "2027-02-14",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-18",
-    "out": "2027-02-22"
+    "out": "2027-02-22",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    }
   ],
   "501U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2026-12-29"
+    "out": "2026-12-29",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 5,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-31",
-    "out": "2027-01-02"
+    "out": "2027-01-02",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-11",
-    "out": "2027-01-16"
+    "out": "2027-01-16",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-26",
-    "out": "2027-02-06"
+    "out": "2027-02-06",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ],
   "502U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-11",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-11-27",
-    "out": "2026-12-05"
+    "out": "2026-12-05",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2026-12-30"
+    "out": "2026-12-30",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-01-11",
-    "out": "2027-01-16"
+    "out": "2027-01-16",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-26",
-    "out": "2027-01-28"
+    "out": "2027-01-28",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-01-30",
-    "out": "2027-02-04"
+    "out": "2027-02-04",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-05",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-09",
-    "out": "2027-02-13"
+    "out": "2027-02-13",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
+   },
+   {
+    "in": "2027-02-23",
+    "out": "2027-02-24",
+    "channel": "booking.com",
+    "guests": 6,
+    "adults": 3,
+    "children": 3,
+    "infants": 0
    }
   ],
   "503U": [
    {
+    "in": "2026-10-05",
+    "out": "2026-10-06",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-11",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-13",
-    "out": "2026-10-14"
+    "out": "2026-10-14",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-20",
-    "out": "2026-10-24"
+    "out": "2026-10-24",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 1,
+    "infants": 1
    },
    {
     "in": "2026-10-25",
-    "out": "2026-10-26"
+    "out": "2026-10-26",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-02",
-    "out": "2026-12-08"
+    "out": "2026-12-08",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-18",
-    "out": "2026-12-20"
+    "out": "2026-12-20",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2026-12-30"
+    "out": "2026-12-30",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-30",
-    "out": "2026-12-31"
+    "out": "2026-12-31",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 4,
+    "children": 2,
+    "infants": 1
    },
    {
     "in": "2027-01-01",
-    "out": "2027-01-02"
+    "out": "2027-01-02",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-02",
-    "out": "2027-01-08"
+    "out": "2027-01-08",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-01-11",
-    "out": "2027-01-16"
+    "out": "2027-01-16",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-22",
-    "out": "2027-01-26"
+    "out": "2027-01-26",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-01-27",
-    "out": "2027-01-31"
+    "out": "2027-01-31",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-31",
-    "out": "2027-02-02"
+    "out": "2027-02-02",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 3,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-02-02",
-    "out": "2027-02-05"
+    "out": "2027-02-05",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-05",
-    "out": "2027-02-07"
+    "out": "2027-02-07",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-02-07",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-09",
-    "out": "2027-02-10"
+    "out": "2027-02-10",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-11",
-    "out": "2027-02-13"
+    "out": "2027-02-13",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "in": "2027-02-23",
+    "out": "2027-02-24",
+    "channel": "booking.com",
+    "guests": 6,
+    "adults": 3,
+    "children": 3,
+    "infants": 0
    }
   ],
   "505U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-31"
+    "out": "2026-12-31",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-15",
-    "out": "2027-01-27"
+    "out": "2027-01-27",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-29",
-    "out": "2027-02-01"
+    "out": "2027-02-01",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-04",
-    "out": "2027-02-09"
+    "out": "2027-02-09",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-16"
+    "out": "2027-02-16",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    }
   ],
   "601U": [
    {
     "in": "2026-12-31",
-    "out": "2027-01-02"
+    "out": "2027-01-02",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 7,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-05",
-    "out": "2027-02-07"
+    "out": "2027-02-07",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    }
   ],
   "602U": [
    {
+    "in": "2026-10-05",
+    "out": "2026-10-07",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 6,
+    "children": 0,
+    "infants": 1
    },
    {
     "in": "2026-10-11",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-16",
-    "out": "2026-10-18"
+    "out": "2026-10-18",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-10-20",
-    "out": "2026-10-22"
+    "out": "2026-10-22",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-26",
-    "out": "2026-10-28"
+    "out": "2026-10-28",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-10-29",
-    "out": "2026-11-01"
+    "out": "2026-11-01",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-07",
-    "out": "2026-12-09"
+    "out": "2026-12-09",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-14",
-    "out": "2026-12-16"
+    "out": "2026-12-16",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 4,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-12-17",
-    "out": "2026-12-19"
+    "out": "2026-12-19",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-25",
-    "out": "2026-12-27"
+    "out": "2026-12-27",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2026-12-31"
+    "out": "2026-12-31",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-31",
-    "out": "2027-01-03"
+    "out": "2027-01-03",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-01-07",
-    "out": "2027-01-12"
+    "out": "2027-01-12",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-14",
-    "out": "2027-01-17"
+    "out": "2027-01-17",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-21",
-    "out": "2027-01-23"
+    "out": "2027-01-23",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-24",
-    "out": "2027-01-25"
+    "out": "2027-01-25",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-28",
-    "out": "2027-02-01"
+    "out": "2027-02-01",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-04",
-    "out": "2027-02-07"
+    "out": "2027-02-07",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 3,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-02-07",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-09",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-12",
-    "out": "2027-02-13"
+    "out": "2027-02-13",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-13",
-    "out": "2027-02-14"
+    "out": "2027-02-14",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-21",
-    "out": "2027-02-24"
+    "out": "2027-02-24",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    }
   ],
   "605U": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-12",
-    "out": "2026-12-13"
+    "out": "2026-12-13",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 4,
+    "children": 3,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-28"
+    "out": "2026-12-28",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-29",
-    "out": "2027-01-03"
+    "out": "2027-01-03",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-07",
-    "out": "2027-01-10"
+    "out": "2027-01-10",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-10",
-    "out": "2027-01-14"
+    "out": "2027-01-14",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-29",
-    "out": "2027-02-01"
+    "out": "2027-02-01",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-09",
-    "out": "2027-02-14"
+    "out": "2027-02-14",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 5,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-02-14",
-    "out": "2027-02-17"
+    "out": "2027-02-17",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    }
   ],
   "701U": [
    {
     "in": "2026-10-09",
-    "out": "2026-10-10"
+    "out": "2026-10-10",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 2,
+    "children": 4,
+    "infants": 0
    },
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-29",
-    "out": "2026-11-01"
+    "out": "2026-11-01",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 3,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-08",
-    "out": "2026-12-11"
+    "out": "2026-12-11",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 7,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-14",
-    "out": "2026-12-17"
+    "out": "2026-12-17",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-21",
-    "out": "2026-12-23"
+    "out": "2026-12-23",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-12-29",
-    "out": "2027-01-15"
+    "out": "2027-01-15",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-01-16",
-    "out": "2027-01-17"
+    "out": "2027-01-17",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-18",
-    "out": "2027-01-21"
+    "out": "2027-01-21",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-23",
-    "out": "2027-01-25"
+    "out": "2027-01-25",
+    "channel": "airbnb",
+    "guests": 7,
+    "adults": 7,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-27",
-    "out": "2027-01-29"
+    "out": "2027-01-29",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-31",
-    "out": "2027-02-03"
+    "out": "2027-02-03",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-06",
-    "out": "2027-02-09"
+    "out": "2027-02-09",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 5,
+    "children": 0,
+    "infants": 1
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-21",
-    "out": "2027-02-26"
-   },
-   {
-    "in": "2027-08-08",
-    "out": "2027-08-12"
+    "out": "2027-02-26",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    }
   ],
   "702U": [
    {
+    "in": "2026-10-06",
+    "out": "2026-10-08",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-10",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 0,
+    "infants": 1
    },
    {
     "in": "2026-10-19",
-    "out": "2026-10-20"
+    "out": "2026-10-20",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-21",
-    "out": "2026-10-23"
+    "out": "2026-10-23",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-23",
-    "out": "2026-10-27"
+    "out": "2026-10-27",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-14",
-    "out": "2026-12-16"
+    "out": "2026-12-16",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-20",
-    "out": "2026-12-23"
+    "out": "2026-12-23",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 3,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-27"
+    "out": "2026-12-27",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-31",
-    "out": "2027-01-01"
+    "out": "2027-01-01",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-01",
-    "out": "2027-01-03"
+    "out": "2027-01-03",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-07",
-    "out": "2027-01-11"
-   },
-   {
-    "in": "2027-01-15",
-    "out": "2027-01-18"
+    "out": "2027-01-11",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-20",
-    "out": "2027-01-22"
+    "out": "2027-01-22",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-22",
-    "out": "2027-02-12"
+    "out": "2027-02-12",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 4,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-18",
-    "out": "2027-02-21"
+    "out": "2027-02-21",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-21",
-    "out": "2027-02-23"
+    "out": "2027-02-23",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    }
   ],
   "705U": [
    {
+    "in": "2026-10-04",
+    "out": "2026-10-06",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-09",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-15",
-    "out": "2026-10-17"
+    "out": "2026-10-17",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 4,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-10-17",
-    "out": "2026-10-18"
+    "out": "2026-10-18",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-24",
-    "out": "2026-10-28"
+    "out": "2026-10-28",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-11-08",
-    "out": "2026-11-09"
+    "out": "2026-11-09",
+    "channel": "airbnb",
+    "guests": 10,
+    "adults": 10,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-05",
-    "out": "2026-12-08"
+    "out": "2026-12-08",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-14",
-    "out": "2026-12-18"
+    "out": "2026-12-18",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-18",
-    "out": "2026-12-19"
+    "out": "2026-12-19",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-20",
-    "out": "2026-12-23"
+    "out": "2026-12-23",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2026-12-25",
-    "out": "2027-01-01"
+    "out": "2027-01-01",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-01",
-    "out": "2027-01-04"
+    "out": "2027-01-04",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-04",
-    "out": "2027-01-07"
+    "out": "2027-01-07",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-07",
-    "out": "2027-01-11"
+    "out": "2027-01-11",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-14",
-    "out": "2027-01-17"
+    "out": "2027-01-17",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-19",
-    "out": "2027-01-21"
+    "out": "2027-01-21",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-21",
-    "out": "2027-01-23"
+    "out": "2027-01-23",
+    "channel": "airbnb",
+    "guests": 8,
+    "adults": 8,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-26",
-    "out": "2027-01-31"
+    "out": "2027-01-31",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
    },
    {
     "in": "2027-01-31",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-08",
-    "out": "2027-02-10"
+    "out": "2027-02-10",
+    "channel": "airbnb",
+    "guests": 6,
+    "adults": 6,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-10",
-    "out": "2027-02-14"
+    "out": "2027-02-14",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-16",
-    "out": "2027-02-19"
+    "out": "2027-02-19",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-20",
-    "out": "2027-02-25"
+    "out": "2027-02-25",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 5,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-03-09",
-    "out": "2027-03-13"
+    "out": "2027-03-13",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    }
   ],
   "A201": [
    {
+    "in": "2026-10-07",
+    "out": "2026-10-09",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-09",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-21",
-    "out": "2026-12-23"
+    "out": "2026-12-23",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2026-12-28"
+    "out": "2026-12-28",
+    "channel": "airbnb",
+    "guests": 5,
+    "adults": 4,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2026-12-28",
-    "out": "2026-12-31"
+    "out": "2026-12-31",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    },
    {
     "in": "2027-02-04",
-    "out": "2027-02-13"
+    "out": "2027-02-13",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    }
   ],
   "A202": [
    {
+    "in": "2026-10-03",
+    "out": "2026-10-06",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "in": "2026-10-06",
+    "out": "2026-10-09",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    }
   ],
   "A203": [
    {
     "in": "2026-10-01",
-    "out": "2026-10-15"
+    "out": "2026-10-15",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-28",
-    "out": "2027-02-24"
+    "out": "2027-02-24",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-03-02",
-    "out": "2027-03-04"
+    "out": "2027-03-04",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
    }
   ],
   "A205": [
    {
+    "in": "2026-10-03",
+    "out": "2026-10-05",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
+    "infants": 0
+   },
+   {
     "in": "2026-10-10",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-10-21",
-    "out": "2026-10-24"
+    "out": "2026-10-24",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-26",
-    "out": "2026-12-27"
+    "out": "2026-12-27",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2026-12-27",
-    "out": "2027-01-14"
+    "out": "2027-01-14",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-26",
-    "out": "2027-02-02"
+    "out": "2027-02-02",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-05",
-    "out": "2027-02-08"
+    "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-11",
-    "out": "2027-02-14"
+    "out": "2027-02-14",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    }
   ],
-  "A301": [],
+  "A301": [
+   {
+    "in": "2026-10-10",
+    "out": "2026-10-11",
+    "channel": "booking.com",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   }
+  ],
   "A302": [
    {
     "in": "2026-10-01",
-    "out": "2026-10-18"
+    "out": "2026-10-18",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    }
   ],
   "A303": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-11"
+    "out": "2026-10-11",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-23",
-    "out": "2027-01-28"
+    "out": "2027-01-28",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-13",
-    "out": "2027-02-20"
+    "out": "2027-02-20",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 0,
+    "infants": 1
    }
   ],
   "A305": [
    {
     "in": "2026-10-10",
-    "out": "2026-10-12"
+    "out": "2026-10-12",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-01-01",
-    "out": "2027-01-06"
+    "out": "2027-01-06",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
    },
    {
     "in": "2027-02-11",
-    "out": "2027-02-16"
+    "out": "2027-02-16",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
    }
   ]
  },
