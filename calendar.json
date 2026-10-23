@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-22T23:14:04Z",
+ "generated_utc": "2026-10-23T04:34:18Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -1564,16 +1564,6 @@
     "infants": 0
    },
    {
-    "code": "0-HMWNHJECB2-ii93dbwo21",
-    "in": "2027-01-26",
-    "out": "2027-01-28",
-    "channel": "airbnb",
-    "guests": 3,
-    "adults": 3,
-    "children": 0,
-    "infants": 0
-   },
-   {
     "code": "0-HMMX2BTS9D-ii82xzz5ol",
     "in": "2027-01-30",
     "out": "2027-02-01",
@@ -2040,6 +2030,16 @@
     "infants": 0
    },
    {
+    "code": "0-HMEDFNS2WK-iic3fk7aba",
+    "in": "2026-12-26",
+    "out": "2026-12-29",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "code": "0-HM9Q38FAH5-igv1e5yn71",
     "in": "2026-12-29",
     "out": "2027-01-15",
@@ -2494,6 +2494,16 @@
     "infants": 0
    },
    {
+    "code": "0-HMEQ3Y5FXK-ihgd4j3tqc",
+    "in": "2027-01-26",
+    "out": "2027-01-31",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 2,
+    "children": 2,
+    "infants": 0
+   },
+   {
     "code": "0-HMC8P8FSP8-igv1ej9lar",
     "in": "2027-01-31",
     "out": "2027-02-08",
@@ -2656,6 +2666,16 @@
     "channel": "airbnb",
     "guests": 2,
     "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "0-HM8KDXNWXD-iic4r3avga",
+    "in": "2027-01-05",
+    "out": "2027-01-15",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
     "children": 0,
     "infants": 0
    },
