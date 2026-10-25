@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T14:16:42Z",
+ "generated_utc": "2026-10-25T18:20:45Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -758,16 +758,6 @@
   ],
   "310U": [
    {
-    "code": "9-6789106164-ii131bkv9a",
-    "in": "2026-10-17",
-    "out": "2026-10-18",
-    "channel": "booking.com",
-    "guests": 2,
-    "adults": 2,
-    "children": 0,
-    "infants": 0
-   },
-   {
     "code": "0-HMJBMHQYA8-ihqrhiikxv",
     "in": "2026-12-26",
     "out": "2026-12-30",
@@ -1280,16 +1270,6 @@
   ],
   "503U": [
    {
-    "code": "9-5214152839-ii26j89w09",
-    "in": "2026-10-17",
-    "out": "2026-10-18",
-    "channel": "booking.com",
-    "guests": 5,
-    "adults": 4,
-    "children": 1,
-    "infants": 0
-   },
-   {
     "code": "0-HMQCSCZAQB-igv1d8q08f",
     "in": "2026-10-20",
     "out": "2026-10-24",
@@ -1636,16 +1616,6 @@
   ],
   "602U": [
    {
-    "code": "0-HMAT4YZS8Q-ihrwoifs1t",
-    "in": "2026-10-16",
-    "out": "2026-10-18",
-    "channel": "airbnb",
-    "guests": 4,
-    "adults": 3,
-    "children": 1,
-    "infants": 0
-   },
-   {
     "code": "0-HM8WFQXEJR-igv1dvk248",
     "in": "2026-10-20",
     "out": "2026-10-22",
@@ -1989,16 +1959,6 @@
    }
   ],
   "701U": [
-   {
-    "code": "0-HMFE2TDF5H-ii4j8xyk5f",
-    "in": "2026-10-17",
-    "out": "2026-10-18",
-    "channel": "airbnb",
-    "guests": 4,
-    "adults": 4,
-    "children": 0,
-    "infants": 0
-   },
    {
     "code": "0-HMRJTH2BHJ-ii4nwqggn9",
     "in": "2026-10-21",
@@ -2374,16 +2334,6 @@
   ],
   "705U": [
    {
-    "code": "0-HM8DYA5ASB-igv1ehqde2",
-    "in": "2026-10-17",
-    "out": "2026-10-18",
-    "channel": "airbnb",
-    "guests": 6,
-    "adults": 6,
-    "children": 0,
-    "infants": 0
-   },
-   {
     "code": "0-HMPZNNA88A-igv1ehu12y",
     "in": "2026-10-24",
     "out": "2026-10-28",
@@ -2521,16 +2471,6 @@
     "guests": 6,
     "adults": 6,
     "children": 0,
-    "infants": 0
-   },
-   {
-    "code": "0-HMEQ3Y5FXK-ihgd4j3tqc",
-    "in": "2027-01-26",
-    "out": "2027-01-31",
-    "channel": "airbnb",
-    "guests": 4,
-    "adults": 2,
-    "children": 2,
     "infants": 0
    },
    {
@@ -2838,16 +2778,6 @@
    }
   ],
   "A305": [
-   {
-    "code": "0-HMM9J49K5F-ii4jcjf2d8",
-    "in": "2026-10-17",
-    "out": "2026-10-18",
-    "channel": "airbnb",
-    "guests": 2,
-    "adults": 2,
-    "children": 0,
-    "infants": 0
-   },
    {
     "code": "0-HMJNQAS3C8-igv1pomzyo",
     "in": "2027-01-01",
