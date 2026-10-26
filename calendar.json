@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T00:07:23Z",
+ "generated_utc": "2026-10-26T05:59:36Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -690,6 +690,16 @@
     "in": "2027-01-15",
     "out": "2027-01-18",
     "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "9-6020328735-iifm04fhve",
+    "in": "2027-01-21",
+    "out": "2027-01-23",
+    "channel": "booking.com",
     "guests": 2,
     "adults": 2,
     "children": 0,
