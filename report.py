@@ -74,7 +74,7 @@ def stale_note(cal, now):
     return None
 
 
-def linen_line(in_bookings):
+def linen_items(in_bookings):
     extras, unknown = [], []
     for b in sorted(in_bookings, key=lambda b: room_key(b["room"])):
         default = LINEN_DEFAULT.get(b["room"])
@@ -86,7 +86,56 @@ def linen_line(in_bookings):
         elif g > default:
             extras.append(f"{num(b['room'])} +{g - default}")
     items = extras + unknown
-    return "上田ビル：" + ("、".join(items) if items else "なし")
+    return "、".join(items) if items else "なし"
+
+
+def linen_line(in_bookings):
+    return "上田ビル：" + linen_items(in_bookings)
+
+
+def ymd(s):
+    return s.replace("-", "/")
+
+
+def alert_blocks(cal):
+    """One ★ line per Hostex/Airbnb desync, plus the rooms they concern.
+
+    Hostex is what the cleaners work from, so a reservation Airbnb knows about
+    and Hostex does not means no cleaning gets ordered. That goes at the top,
+    not in a footnote.
+    """
+    chk = cal.get("airbnb_check") or {}
+    missing = [m for m in chk.get("mismatches") or [] if m["kind"] == "missing_in_hostex"]
+    extra = [m for m in chk.get("mismatches") or [] if m["kind"] == "missing_in_airbnb"]
+    blocks, rooms = [], []
+    for m in missing:
+        # the same dates sitting on another room in Hostex means the room changed
+        moved = next((e for e in extra if (e["in"], e["out"]) == (m["in"], m["out"])), None)
+        span_s = f"{ymd(m['in'])} ~ {ymd(m['out'])}"
+        rooms.append(m["room"])
+        if moved:
+            extra.remove(moved)
+            blocks.append(
+                f"★{m['room']}　{span_s} のAirbnb予約がHostexでは{moved['room']}のままです。ご確認ください。"
+            )
+        else:
+            blocks.append(
+                f"★{m['room']}　{span_s} のAirbnb予約がHostexに同期されていない可能性があります。ご確認ください。"
+            )
+    for e in extra:
+        rooms.append(e["room"])
+        blocks.append(
+            f"★{e['room']}　{ymd(e['in'])} ~ {ymd(e['out'])} のHostexの予約がAirbnbにありません。ご確認ください。"
+        )
+    for err in chk.get("errors") or []:
+        blocks.append(f"★Airbnbとの照合ができませんでした　{err}")
+    return blocks, rooms
+
+
+def alert_suffix(blocks, rooms):
+    if rooms:
+        return " ★" + "・".join(dict.fromkeys(rooms)) + " 要確認"
+    return " ★照合エラー" if blocks else ""
 
 
 def notes(cal, now):
@@ -105,31 +154,36 @@ def notes(cal, now):
 def evening(cal, now):
     D = (now + datetime.timedelta(days=1)).date()
     ds = d2s(D)
-    status = {}
-    in_bookings = []
-    for b in flatten(cal):
-        st = status.setdefault(b["room"], [False, False])
-        if b["out"] == ds:
-            st[0] = True
-        if b["in"] == ds:
-            st[1] = True
-            in_bookings.append(b)
-    lines = [f"{md_wd(D)} OUT / IN 確認", ""]
-    for bld in ("上田ビル", "アークシティ"):
-        lines.append(bld)
-        rows = []
-        for room in sorted((r for r in status if building(r) == bld), key=room_key):
-            o, i = status[room]
-            if o or i:
-                rows.append(f"{num(room)} " + " ".join(x for x, f in (("out", o), ("in", i)) if f))
-        lines += rows or ["なし"]
-        lines.append("")
-    lines += ["リネン追加", linen_line(in_bookings), ""]
+    outs = [b for b in flatten(cal) if b["out"] == ds]
+    ins = [b for b in flatten(cal) if b["in"] == ds]
+    blocks, alert_rooms = alert_blocks(cal)
+
+    lines = blocks + ["", ""] if blocks else []
+
+    in_rooms = {b["room"] for b in ins}
+    lines.append(f"■ {md_wd(D)} OUT")
+    if outs:
+        for b in sorted(outs, key=lambda b: room_key(b["room"])):
+            lines.append(f"　{b['room']}" + ("　→ 同日IN" if b["room"] in in_rooms else ""))
+    else:
+        lines.append("　なし")
+    lines.append("")
+
+    lines.append(f"■ {md_wd(D)} IN")
+    if ins:
+        for b in sorted(ins, key=lambda b: room_key(b["room"])):
+            g = b.get("guests")
+            lines.append(f"　{b['room']}　{md(b['in'])} → {md(b['out'])}　" + (f"{g}名" if g else "人数要確認"))
+    else:
+        lines.append("　なし")
+    lines.append("")
+    lines += [f"　リネン追加：{linen_items(ins)}", ""]
+
     n = notes(cal, now)
     if n:
         lines += n + [""]
     lines.append(SIGN_EVENING)
-    return f"【民泊】{md_wd(D)} OUT/IN確認（翌日ぶん）", "\n".join(lines)
+    return f"【民泊】{md_wd(D)} OUT/IN確認{alert_suffix(blocks, alert_rooms)}", "\n".join(lines)
 
 
 def load_baseline(now):
@@ -175,8 +229,11 @@ def morning(cal, base, now):
     T1 = T + datetime.timedelta(days=1)
     days = {d2s(T), d2s(T1)}
     label = {d2s(T): "本日", d2s(T1): "明日"}
-    subject = f"【民泊】{md_wd(T)} 夜間変更報告"
+    blocks, alert_rooms = alert_blocks(cal)
+    subject = f"【民泊】{md_wd(T)} 夜間変更報告{alert_suffix(blocks, alert_rooms)}"
     head = ["おはようございます。"]
+    if blocks:
+        head += [""] + [x for blk in blocks for x in (blk, "")]
     tail_notes = notes(cal, now)
     if base is None:
         body = head + ["前日17時時点のカレンダーが見つからず、夜間の変更を比較できませんでした。目視でご確認ください。", ""]
