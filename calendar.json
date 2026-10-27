@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T23:44:57Z",
+ "generated_utc": "2026-10-27T01:51:12Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -2810,5 +2810,18 @@
    }
   ]
  },
- "errors": []
+ "errors": [],
+ "airbnb_check": {
+  "checked": true,
+  "rooms_ok": 29,
+  "mismatches": [
+   {
+    "room": "310U",
+    "in": "2027-01-26",
+    "out": "2027-02-01",
+    "kind": "missing_in_hostex"
+   }
+  ],
+  "errors": []
+ }
 }
