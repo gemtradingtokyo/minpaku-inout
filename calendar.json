@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T04:50:12Z",
+ "generated_utc": "2026-10-27T10:23:08Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -398,6 +398,16 @@
     "infants": 0
    },
    {
+    "code": "0-HMFCMA4X9Q-iigtsfb09g",
+    "in": "2027-01-29",
+    "out": "2027-02-01",
+    "channel": "airbnb",
+    "guests": 1,
+    "adults": 1,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "code": "0-HM3QZSSCKN-ihpimegv9b",
     "in": "2027-02-01",
     "out": "2027-02-04",
@@ -775,6 +785,16 @@
     "guests": 2,
     "adults": 2,
     "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "0-HMB3FD9RQS-ihyoa9k4f4",
+    "in": "2027-01-26",
+    "out": "2027-02-01",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
     "infants": 0
    },
    {
@@ -1554,6 +1574,16 @@
     "infants": 0
    },
    {
+    "code": "0-HM9Q95JZKY-iih2fyb1vu",
+    "in": "2027-01-14",
+    "out": "2027-01-18",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "code": "9-5064782870-ii81og77o0",
     "in": "2027-01-21",
     "out": "2027-01-24",
@@ -1561,16 +1591,6 @@
     "guests": 5,
     "adults": 4,
     "children": 1,
-    "infants": 0
-   },
-   {
-    "code": "0-HMWNHJECB2-ii93dbwo21",
-    "in": "2027-01-26",
-    "out": "2027-01-28",
-    "channel": "airbnb",
-    "guests": 3,
-    "adults": 3,
-    "children": 0,
     "infants": 0
    },
    {
@@ -2084,6 +2104,16 @@
     "in": "2027-01-27",
     "out": "2027-01-29",
     "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "9-5212817045-iih0jmf25d",
+    "in": "2027-01-29",
+    "out": "2027-01-31",
+    "channel": "booking.com",
     "guests": 4,
     "adults": 4,
     "children": 0,
@@ -2816,9 +2846,9 @@
   "rooms_ok": 29,
   "mismatches": [
    {
-    "room": "310U",
+    "room": "601U",
     "in": "2027-01-26",
-    "out": "2027-02-01",
+    "out": "2027-01-28",
     "kind": "missing_in_hostex"
    }
   ],
