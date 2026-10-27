@@ -34,6 +34,7 @@ jobs:
         env:
           HOSTEX_ACCESS_TOKEN: ${{ secrets.HOSTEX_ACCESS_TOKEN }}
           HOSTEX_ROOMS: ${{ secrets.HOSTEX_ROOMS }}
+          ICAL_URLS: ${{ secrets.ICAL_URLS }}
         run: python3 build_calendar.py
 
       - name: Commit if changed
