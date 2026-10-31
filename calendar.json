@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-31T05:21:55Z",
+ "generated_utc": "2026-10-31T12:10:43Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -465,6 +465,16 @@
     "guests": 3,
     "adults": 3,
     "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "9-6738326584-iilrtkxesv",
+    "in": "2027-02-12",
+    "out": "2027-02-15",
+    "channel": "booking.com",
+    "guests": 3,
+    "adults": 2,
+    "children": 1,
     "infants": 0
    },
    {
