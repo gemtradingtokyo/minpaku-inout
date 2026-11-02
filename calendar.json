@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-01T23:29:25Z",
+ "generated_utc": "2026-11-02T05:49:28Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -981,6 +981,16 @@
    }
   ],
   "403U": [
+   {
+    "code": "9-6291737192-iinqt0qqk8",
+    "in": "2026-11-06",
+    "out": "2026-11-08",
+    "channel": "booking.com",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
+   },
    {
     "code": "0-HMER4ZCA2M-igv1cdx4ml",
     "in": "2026-12-28",
@@ -2935,6 +2945,12 @@
   "checked": true,
   "rooms_ok": 29,
   "mismatches": [
+   {
+    "room": "505U",
+    "in": "2027-01-12",
+    "out": "2027-01-15",
+    "kind": "missing_in_hostex"
+   },
    {
     "room": "701U",
     "in": "2027-01-27",
