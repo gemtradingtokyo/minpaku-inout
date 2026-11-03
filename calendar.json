@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T14:58:51Z",
+ "generated_utc": "2026-11-03T20:53:19Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -2281,16 +2281,6 @@
    }
   ],
   "702U": [
-   {
-    "code": "0-HMR4N9BCHK-igv1eipgtt",
-    "in": "2026-10-23",
-    "out": "2026-10-27",
-    "channel": "airbnb",
-    "guests": 4,
-    "adults": 4,
-    "children": 0,
-    "infants": 0
-   },
    {
     "code": "0-HMYY3C4TYM-iii65n2dpq",
     "in": "2026-10-30",
