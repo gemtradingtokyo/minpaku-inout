@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T22:29:32Z",
+ "generated_utc": "2026-11-14T03:03:06Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -3135,6 +3135,12 @@
   "checked": true,
   "rooms_ok": 29,
   "mismatches": [
+   {
+    "room": "502U",
+    "in": "2026-12-10",
+    "out": "2026-12-13",
+    "kind": "missing_in_hostex"
+   },
    {
     "room": "308U",
     "in": "2027-05-03",
