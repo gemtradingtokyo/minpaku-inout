@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-17T13:06:18Z",
+ "generated_utc": "2026-11-17T22:10:55Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -177,6 +177,16 @@
     "code": "0-HMMQ2EAEQT-iguy21smpp",
     "in": "2027-02-15",
     "out": "2027-03-02",
+    "channel": "airbnb",
+    "guests": 2,
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "0-HMHM5EZY28-ij5lf5qanc",
+    "in": "2027-03-04",
+    "out": "2027-03-07",
     "channel": "airbnb",
     "guests": 2,
     "adults": 2,
@@ -2016,6 +2026,16 @@
     "infants": 0
    },
    {
+    "code": "0-HMX3WEE9XX-ij5jb98sz9",
+    "in": "2027-01-23",
+    "out": "2027-01-24",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "code": "0-HM9MSF9FJQ-igv1dw8891",
     "in": "2027-01-24",
     "out": "2027-01-25",
@@ -2640,6 +2660,16 @@
     "adults": 4,
     "children": 0,
     "infants": 0
+   },
+   {
+    "code": "0-HM4NXN3HYZ-ij5nsat9zl",
+    "in": "2027-02-28",
+    "out": "2027-03-04",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
    }
   ],
   "705U": [
@@ -2896,6 +2926,16 @@
     "infants": 0
    },
    {
+    "code": "0-HMTH9FSD9H-iiatb1vwi8",
+    "in": "2027-01-31",
+    "out": "2027-02-02",
+    "channel": "airbnb",
+    "guests": 4,
+    "adults": 4,
+    "children": 0,
+    "infants": 0
+   },
+   {
     "code": "0-HMHP8CF2JC-igv1ode4b6",
     "in": "2027-02-04",
     "out": "2027-02-13",
@@ -2931,6 +2971,16 @@
     "code": "0-HMNWDD9ZSS-iiwb8311hy",
     "in": "2027-02-03",
     "out": "2027-02-08",
+    "channel": "airbnb",
+    "guests": 3,
+    "adults": 3,
+    "children": 0,
+    "infants": 0
+   },
+   {
+    "code": "0-HM3PDBR3AP-ij5qdhjoqi",
+    "in": "2027-02-08",
+    "out": "2027-02-13",
     "channel": "airbnb",
     "guests": 3,
     "adults": 3,
@@ -3187,12 +3237,6 @@
   "mismatches": [
    {
     "room": "503U",
-    "in": "2027-01-31",
-    "out": "2027-02-02",
-    "kind": "missing_in_hostex"
-   },
-   {
-    "room": "A201",
     "in": "2027-01-31",
     "out": "2027-02-02",
     "kind": "missing_in_hostex"
