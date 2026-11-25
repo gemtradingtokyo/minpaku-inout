@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T02:15:49Z",
+ "generated_utc": "2026-11-25T12:35:23Z",
  "source": "hostex",
  "rooms": {
   "301U": [
@@ -2958,8 +2958,8 @@
     "in": "2026-12-25",
     "out": "2027-01-01",
     "channel": "airbnb",
-    "guests": 4,
-    "adults": 4,
+    "guests": 8,
+    "adults": 8,
     "children": 0,
     "infants": 0
    },
